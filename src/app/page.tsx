@@ -28,31 +28,31 @@ const page = () => {
   return (
     <>
       <div style={list}>
-        <div className="flex flex-col w-full h-full justify-center items-center ">
-          <h1 className="text-4xl lg:text-6xl text-white font-Poppins font-bold">
+        <div className="flex flex-col items-center justify-center w-full h-full ">
+          <h1 className="text-4xl font-bold text-white lg:text-6xl font-Poppins">
             <RunningText />
           </h1>
-          <p className="md:text-xl sm:text-lg lg:text-2xl text-white  font-Poppins mt-5 font-semibold">
+          <p className="mt-5 font-semibold text-white md:text-xl sm:text-lg lg:text-2xl font-Poppins">
             {" "}
             Frontend Developer & UI / UX Enthusiast
           </p>
-          <p className="text-sm text-white  font-Poppins w-7/12 mt-3 text-center font-normal">
+          <p className="w-7/12 mt-3 text-sm font-normal text-center text-white font-Poppins">
             I design, code and focused on minimal and clean design
           </p>
-          <div className="flex flex-row space-x-6 mt-5">
+          <div className="flex flex-row mt-5 space-x-6">
             {" "}
             <Link href="https://facebook.com/gumilang48" target="_blank">
-              <BsFacebook className="text-white text-4xl hover:text-blue-900 cursor-pointer" />
+              <BsFacebook className="text-4xl text-white cursor-pointer hover:text-blue-900" />
             </Link>
             <Link href="https://instagram.com/gumilangtama" target="_blank">
-              <RiInstagramFill className="text-white text-4xl hover:text-pink-500 cursor-pointer" />
+              <RiInstagramFill className="text-4xl text-white cursor-pointer hover:text-pink-500" />
             </Link>
             <Link href="https://instagram.com/gumilangtama" target="_blank">
-              <BsTwitter className="text-white text-4xl hover:text-blue-900" />
+              <BsTwitter className="text-4xl text-white hover:text-blue-900" />
             </Link>
           </div>
           <Link href="/cv.pdf" target="_blank">
-            <button className="p-4 text-sm text-black bg-white border-2 border-white rounded-lg font-Poppins hover:border-black font-semibold hover:border-2 hover:bg-black hover:text-white hover:duration-200 hover:transition hover:ease-out mt-5">
+            <button className="p-4 mt-5 text-sm font-semibold text-black bg-white border-2 border-white rounded-lg font-Poppins hover:border-black hover:border-2 hover:bg-black hover:text-white hover:duration-200 hover:transition hover:ease-out">
               {" "}
               Download My CV
             </button>
@@ -60,11 +60,11 @@ const page = () => {
         </div>
       </div>
       <div className="w-full h-[25rem] mt-2 bg-white flex flex-col items-center justify-center">
-        <h1 className="text-4xl text-font-primary font-Poppins font-bold mb-10 underline">
+        <h1 className="mb-10 text-4xl font-bold underline text-font-primary font-Poppins">
           Summary
         </h1>
 
-        <h2 className="text-font-primary font-semibold lg:text-4xl text-xl text-center">
+        <h2 className="text-xl font-semibold text-center text-font-primary lg:text-4xl">
           Hi, i’m Tamasakti, nice to meet u
         </h2>
         <p className="text-center  w-10/12 lg:w-[70rem] lg:text-xl text-sm mt-10 text-font-primary font-normal">
@@ -76,16 +76,16 @@ const page = () => {
           Javascript, React, and Typescript programming language
         </p>
       </div>
-      <h1 className="text-4xl  font-Poppins font-bold text-font-primary text-center mb-7 underline">
+      <h1 className="text-4xl font-bold text-center underline font-Poppins text-font-primary mb-7">
         Technical Skills
       </h1>
       <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[30rem] mx-auto">
         Programming skills, or coding skills, are the skills i use to develop
         applications and web app
       </p>
-      <div className="flex flex-col space-y-24 mb-32">
-        <div className="flex mx-auto lg:gap-0 gap-8 flex-col-reverse lg:flex-row w-10/12 ">
-          <div className="flex-1 flex justify-center items-center">
+      <div className="flex flex-col mb-32 space-y-24">
+        <div className="flex flex-col-reverse w-10/12 gap-8 mx-auto lg:gap-0 lg:flex-row ">
+          <div className="flex items-center justify-center flex-1">
             <CardSkills
               backTitle="Tools & Framework"
               icon={
@@ -95,7 +95,7 @@ const page = () => {
               }
               title="Beautify Tools"
               icon1={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <SiAdobexd className="mx-auto mb-2 text-xl" />
                   </span>
@@ -103,7 +103,7 @@ const page = () => {
                 </p>
               }
               icon2={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <CgFigma className="mx-auto mb-2 text-xl" />
                   </span>
@@ -111,7 +111,7 @@ const page = () => {
                 </p>
               }
               icon3={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <SiAdobephotoshop className="mx-auto mb-2 text-xl" />
                   </span>
@@ -119,7 +119,7 @@ const page = () => {
                 </p>
               }
               icon4={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <DiCss3 className="mx-auto mb-2 text-xl" />
                   </span>
@@ -127,7 +127,7 @@ const page = () => {
                 </p>
               }
               icon5={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <SiTailwindcss className="mx-auto mb-2 text-xl" />
                   </span>
@@ -136,19 +136,19 @@ const page = () => {
               }
             />
           </div>
-          <div className="flex-1 flex flex-col justify-center items-center space-y-5">
+          <div className="flex flex-col items-center justify-center flex-1 space-y-5">
             <h1 className="text-xl font-semibold font-Poppins text-font-primary">
               Beautify Tools
             </h1>
-            <p className="w-9/12 text-lg  font-normal font-Montserrat text-font-primary">
+            <p className="w-9/12 text-lg font-normal font-Montserrat text-font-primary">
               I design simple content structure, minimal, clean design style, to
               achieve better UI / UX experience
             </p>
           </div>
         </div>
 
-        <div className="flex mx-auto flex-col-reverse lg:gap-0 gap-8 lg:flex-row-reverse w-10/12">
-          <div className="flex-1 flex justify-center items-center">
+        <div className="flex flex-col-reverse w-10/12 gap-8 mx-auto lg:gap-0 lg:flex-row-reverse">
+          <div className="flex items-center justify-center flex-1">
             <CardSkills
               backTitle="Languages"
               icon={
@@ -158,7 +158,7 @@ const page = () => {
               }
               title="Programming Language"
               icon1={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <IoLogoJavascript className="mx-auto mb-2 text-xl" />
                   </span>
@@ -166,7 +166,7 @@ const page = () => {
                 </p>
               }
               icon2={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <FaReact className="mx-auto mb-2 text-xl" />
                   </span>
@@ -174,7 +174,7 @@ const page = () => {
                 </p>
               }
               icon3={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <SiTypescript className="mx-auto mb-2 text-xl" />
                   </span>
@@ -182,7 +182,7 @@ const page = () => {
                 </p>
               }
               icon4={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <TbBrandNextjs className="mx-auto mb-2 text-xl" />
                   </span>
@@ -191,18 +191,18 @@ const page = () => {
               }
             />
           </div>
-          <div className="flex-1 flex flex-col justify-center items-center space-y-5">
+          <div className="flex flex-col items-center justify-center flex-1 space-y-5">
             <h1 className="text-xl font-semibold font-Poppins text-font-primary">
               Programming Languages
             </h1>
-            <p className="w-9/12 text-lg  font-normal font-Montserrat text-font-primary">
+            <p className="w-9/12 text-lg font-normal font-Montserrat text-font-primary">
               I like to code things from scratch, do responsive and enjoy
               bringing ideas to life
             </p>
           </div>
         </div>
-        <div className="flex mx-auto lg:gap-0 gap-8 flex-col-reverse lg:flex-row w-10/12 ">
-          <div className="flex-1 flex justify-center items-center">
+        <div className="flex flex-col-reverse w-10/12 gap-8 mx-auto lg:gap-0 lg:flex-row ">
+          <div className="flex items-center justify-center flex-1">
             <CardSkills
               backTitle="State Management & Other Skills"
               icon={
@@ -212,7 +212,7 @@ const page = () => {
               }
               title="State Management & Other Skills"
               icon1={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <GiHook className="mx-auto mb-2 text-xl" />
                   </span>
@@ -220,7 +220,7 @@ const page = () => {
                 </p>
               }
               icon2={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <GiPulleyHook className="mx-auto mb-2 text-xl" />
                   </span>
@@ -228,7 +228,7 @@ const page = () => {
                 </p>
               }
               icon3={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <SiRedux className="mx-auto mb-2 text-xl" />
                   </span>
@@ -236,7 +236,7 @@ const page = () => {
                 </p>
               }
               icon4={
-                <p className=" text-white font-semibold p-2 rounded-lg">
+                <p className="p-2 font-semibold text-white rounded-lg ">
                   <span>
                     <TbApi className="mx-auto mb-2 text-xl" />
                   </span>
@@ -245,11 +245,11 @@ const page = () => {
               }
             />
           </div>
-          <div className="flex-1 flex flex-col justify-center items-center space-y-5">
+          <div className="flex flex-col items-center justify-center flex-1 space-y-5">
             <h1 className="text-xl font-semibold font-Poppins text-font-primary">
               State Management & Others
             </h1>
-            <p className="w-9/12 text-lg  font-normal font-Montserrat text-font-primary">
+            <p className="w-9/12 text-lg font-normal font-Montserrat text-font-primary">
               I manage state and process of sharing data across different
               components in React and Next.Js using these tools, also other
               skills such as Integrating Api, Debugging, etc
@@ -259,13 +259,13 @@ const page = () => {
       </div>
 
       <div>
-        <h1 className="text-4xl  font-Poppins font-bold text-font-primary text-center mb-7  underline">
+        <h1 className="text-4xl font-bold text-center underline font-Poppins text-font-primary mb-7">
           Portfolio Design
         </h1>
         <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[30rem] mx-auto">
           Here are my projects Ive worked on. Want to see more?{" "}
           <Link
-            className="underline font-semibold text-font-primary"
+            className="font-semibold underline text-font-primary"
             href="https://github.com/tamasakti"
           >
             See My Github Repository{" "}
@@ -280,10 +280,10 @@ const page = () => {
             className="w-10/12 lg:w-4/12 h-[25rem] z-10 shadow-lg hover:z-10 scale-105 relative"
             style={list2}
           >
-            <div className="absolute w-full h-full bg-font-primary mix-blend-multiply opacity-30 z-0 flex flex-col  justify-center items-center"></div>
+            <div className="absolute z-0 flex flex-col items-center justify-center w-full h-full bg-font-primary mix-blend-multiply opacity-30"></div>
             <div className="absolute w-full h-[90%] z-50 flex flex-col  justify-end items-center space-y-3 ">
-              <h1 className="text-white text-2xl font-bold">Musiclab - Id</h1>
-              <button className="bg-white text-font-primary py-2 font-semibold font-Poppins rounded-lg px-10 p-3 hover:bg-font-primary hover:text-white cursor-pointer">
+              <h1 className="text-2xl font-bold text-white">Musiclab - Id</h1>
+              <button className="p-3 px-10 py-2 font-semibold bg-white rounded-lg cursor-pointer text-font-primary font-Poppins hover:bg-font-primary hover:text-white">
                 <Link href="https://musiclab-id.vercel.app/" target="_blank">
                   View Demo
                 </Link>
@@ -296,15 +296,10 @@ const page = () => {
           </div>
         </div>
         <div className="flex w-full h-[8rem] justify-center items-center">
-          <button className="bg-font-primary border-2 border-font-primary text-white py-2 px-12 p-5 rounded-lg hover:bg-white hover:text-font-primary hover:border-2 hover:border-font-primary font-Poppins font-semibold">
+          <button className="p-5 px-12 py-2 font-semibold text-white border-2 rounded-lg bg-font-primary border-font-primary hover:bg-white hover:text-font-primary hover:border-2 hover:border-font-primary font-Poppins">
             <Link href="/work">See More</Link>
           </button>
         </div>
-      </div>
-      <div className="flex justify-center items-center w-full min-h-screen mt-10 mb-10">
-        {/* <div className="w-[100%] h-full flex flex-row rounded-lg">
-          <Form />
-        </div> */}
       </div>
     </>
   );
