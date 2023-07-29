@@ -27,7 +27,7 @@ const Work = () => {
           in this page will include web app, mobile app, and figma design
           projects
         </p>
-        <div className="w-full lg:w-[90%] border-2 border-blue-700 grid grid-cols-1 lg:grid-cols-2 mx-auto gap-16 p-10 ">
+        <div className="w-full lg:w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto gap-16 p-10 ">
           <div className="flex flex-row justify-center items-center w-[22rem] lg:w-[30rem] h-[25rem] lg:h-[25rem] shadow-lg hover:scale-110 bg-white gap-6">
             <div
               className={`${
@@ -36,7 +36,7 @@ const Work = () => {
                   : "flex flex-col justify-center space-y-7 items-center w-[40%] lg:w-[50%]"
               }`}
             >
-              <h1 className="text-font-primary text-xl font-Poppins font-bold tracking-tight">
+              <h1 className="text-xl font-bold tracking-tight text-font-primary font-Poppins">
                 MusicLab - Id
               </h1>
               <Image
@@ -45,7 +45,7 @@ const Work = () => {
                 width={300}
                 height={300}
               />
-              <button className="border-2 border-font-primary text-lg bg-font-primary text-white px-8 py-2 rounded-lg hover:bg-white hover:text-font-primary transition duration-200 ease-in-out">
+              <button className="px-8 py-2 text-lg text-white transition duration-200 ease-in-out border-2 rounded-lg border-font-primary bg-font-primary hover:bg-white hover:text-font-primary">
                 <Link href="https://musiclab-id.vercel.app" target="_blank">
                   View Demo
                 </Link>
@@ -59,15 +59,15 @@ const Work = () => {
               }`}
             >
               <div className="flex flex-row w-full h-full">
-                <div className="items-center flex">
+                <div className="flex items-center">
                   {!active ? (
                     <AiFillMinusSquare
-                      className="cursor-pointer font-semibold font-Poppins text-2xl text-white z-10"
+                      className="z-10 text-2xl font-semibold text-white cursor-pointer font-Poppins"
                       onClick={handleClick}
                     />
                   ) : (
                     <h1
-                      className="z-10 cursor-pointer font-semibold font-Poppins text-2xl"
+                      className="z-10 text-2xl font-semibold cursor-pointer font-Poppins"
                       onClick={handleClick}
                     >
                       +
@@ -117,9 +117,9 @@ const Work = () => {
                   >
                     Tech Stack :
                   </p>
-                  <div className="grid grid-cols-2 mt-3 w-10/12 mx-auto gap-2">
+                  <div className="grid w-10/12 grid-cols-2 gap-2 mx-auto mt-3">
                     <p className="w-full space-y-2">
-                      <span className=" flex justify-start w-full">
+                      <span className="flex justify-start w-full ">
                         ReactJS
                       </span>
                       <span className="flex justify-start w-full">
@@ -127,7 +127,7 @@ const Work = () => {
                       </span>
                     </p>
                     <p className="w-full space-y-2">
-                      <span className=" flex justify-start w-full">
+                      <span className="flex justify-start w-full ">
                         Typescript
                       </span>
                       <span className="flex justify-start w-full">
@@ -135,7 +135,7 @@ const Work = () => {
                       </span>
                     </p>
                     <p className="w-full space-y-2">
-                      <span className=" flex justify-start w-full">
+                      <span className="flex justify-start w-full ">
                         Tailwind
                       </span>
                       <span className="flex justify-start w-full">

@@ -302,9 +302,9 @@ const page = () => {
         </div>
       </div>
       <div className="flex justify-center items-center w-full min-h-screen mt-10 mb-10">
-        <div className="w-[100%] h-full flex flex-row rounded-lg">
+        {/* <div className="w-[100%] h-full flex flex-row rounded-lg">
           <Form />
-        </div>
+        </div> */}
       </div>
     </>
   );
