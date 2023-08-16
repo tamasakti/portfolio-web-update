@@ -27,7 +27,7 @@ const Work = () => {
           in this page will include web app, mobile app, and figma design
           projects
         </p>
-        <div className="w-full lg:w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto gap-16 p-10 ">
+        <div className="w-full lg:w-[90%] grid grid-cols-1 lg:grid-cols-2 mx-auto gap-16">
           <div className="flex flex-row justify-center items-center w-[22rem] lg:w-[30rem] h-[25rem] lg:h-[25rem] shadow-lg hover:scale-110 bg-white gap-6">
             <div
               className={`${

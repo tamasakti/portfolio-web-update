@@ -79,7 +79,7 @@ const page = () => {
       <h1 className="text-4xl font-bold text-center underline font-Poppins text-font-primary mb-7">
         Technical Skills
       </h1>
-      <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[30rem] mx-auto">
+      <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[20rem] lg:w-[30rem] mx-auto">
         Programming skills, or coding skills, are the skills i use to develop
         applications and web app
       </p>
@@ -262,7 +262,7 @@ const page = () => {
         <h1 className="text-4xl font-bold text-center underline font-Poppins text-font-primary mb-7">
           Portfolio Design
         </h1>
-        <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[30rem] mx-auto">
+        <p className="text-xl font-Poppins font-normal text-slate-600 text-center mb-20 w-[20rem] lg:w-[30rem] mx-auto">
           Here are my projects Ive worked on. Want to see more?{" "}
           <Link
             className="font-semibold underline text-font-primary"
